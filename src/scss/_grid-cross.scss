@@ -1,0 +1,94 @@
+$large: 14px;
+$colorBefore: white;
+$colorAfter: white;
+$colorBorder: $gray1;
+
+.grid-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .grid-row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        @media #{$break2} {
+            flex-direction: column;
+        }
+
+        .info-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 33.333%;
+            padding: 4rem 0;
+            border-right: 1px solid $colorBorder;
+            border-top: 1px solid $colorBorder;
+
+            @media #{$break2} {
+                width: 100%;
+            }
+
+            &:before, &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                background-color: #FFF;
+            }
+
+            &:before {
+                left: -2px;
+                width: calc(100% + 4px);
+                height: calc(100% - (#{$large} * 2));
+                background-color: $colorBefore;
+            }
+
+            &:after {
+                width: calc(100% - (#{$large} * 2));
+                height: calc(100% + 4px);
+                top: -2px;
+                background-color: $colorAfter;
+            }
+
+            &:first-child {
+                border-left: 1px solid $colorBorder;
+            }
+
+            &:first-child, &:last-child {
+                &:after {
+                    width: 100%;
+                    left: -$large;
+                }
+            }
+
+            &:last-child {
+                &:after {
+                    left: $large;
+                }
+            }
+
+            @media #{$break2} {
+                border: none;
+            }
+        }
+
+        &:last-child {
+            border-bottom: 1px solid $colorBorder;
+            @media #{$break2} {
+                border: none;
+            }
+        }
+    }
+}
+  
+.info {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    // background-color: #faa;
+}

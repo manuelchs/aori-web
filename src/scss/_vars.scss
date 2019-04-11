@@ -1,0 +1,27 @@
+$mainColor: #F37229;
+$gray1: #D2D2D2;
+$gray2: #707171;
+$gray3: #58595B;
+$gray4: #2B2B2B;
+$gray5: #1A1A1A;
+
+$stroke: 8px;
+
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semiBold: 600;
+
+$navbarHeight: 76px;
+
+$break1: "only screen and (max-width : 1099px)";
+$break2: "only screen and (max-width : 900px)";
+$break3: "only screen and (max-width : 700px)";
+
+:root {
+    --navbarHeight: 76px;
+    
+    @media #{$break2} {
+        --navbarHeight: 76px;
+    }
+}

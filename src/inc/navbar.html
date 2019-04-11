@@ -1,0 +1,66 @@
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+    FB.init({
+        xfbml            : true,
+        version          : 'v3.2'
+    });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="373459693035831"
+    theme_color="#ff7e29"
+    logged_in_greeting="¡Hola! ¿Cómo podemos ayudarte?"
+    logged_out_greeting="¡Hola! ¿Cómo podemos ayudarte?">
+</div>
+<!-- END FACEBOOK -->
+
+
+<nav id="nav">
+    <div class="main-wrapper">
+        <div class="logo">
+            <a href="/">
+                <img alt="Logo AORI" title="Inicio" draggable="false" src="#/img/logo-white.png" alt="">
+            </a>
+            <div id="burger" class="burger-icon">
+                <span></span>
+            </div>
+        </div>
+        <div class="menu-wrapper">
+            <ul>
+                <li><a class="underline small-line hover-line hv-right link-navbar" scroll="about" href="">Nosotros</a></li>
+                <li><a class="underline small-line hover-line hv-right link-navbar" scroll="servicios" href="">Servicios</a></li>
+                <li><a class="underline small-line hover-line hv-right link-navbar" scroll="portafolio" href="">Portafolio</a></li>
+                <li><a class="underline small-line hover-line hv-right link-navbar" scroll="contacto" href="">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="social-wrapper">
+            <a href="">
+                <img draggable="false" alt="aori en facebook" title="Contacto Aori en Facebook" src="#/img/facebook-icon.png" alt="">
+            </a>
+            <a href="">
+                <img draggable="false" alt="aori en instagram" title="Contacto Aori en Instagram" src="#/img/instagram-icon.png" alt="">
+            </a>
+            <a href="">
+                <img draggable="false" alt="aori en whatsapp" title="Contacto Aori en Whatsapp" src="#/img/whatsapp-icon.png" alt="">
+            </a>
+            <a href="">
+                <img draggable="false" alt="correo a Aori" title="Enviar correo a AORI" src="#/img/mail-icon.png" alt="">
+            </a>
+            <a href="">
+                <img draggable="false" alt="teléfono Aori" title="Llamar a AORI" src="#/img/phone-icon.png" alt="">
+            </a>
+        </div>
+    </div>
+</nav>

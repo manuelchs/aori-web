@@ -1,0 +1,6 @@
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aori.mx [NC]
+RewriteRule ^(.*)$ https://www.aori.mx/$1 [L,R=301,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
