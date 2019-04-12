@@ -23,17 +23,6 @@ $(function() {
         moverD();
     });
 
-    $('.ms-slider-item').click(function() {
-        if( $(this)[0] == $('.ms-slider-item')[1] ) {
-            moverI();
-        } else if( $(this)[0] == $('.ms-slider-item')[3] ) {
-            moverD();
-        } else {
-            $('.modal-construccion').addClass('modal-show');
-            console.log('click');
-        }
-    });
-
     var region = new ZingTouch.Region( document.getElementById('ms-slider'), true , false );
     var target = document.getElementById('ms-slider');
     region.bind(target, 'swipe', function(e){

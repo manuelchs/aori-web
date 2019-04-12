@@ -29,10 +29,10 @@
             </div>
             <div class="main-wrapper-services-sec-large">
                 <div class="slider-services-sec-wrapper">
-                    <div class="slider-services-sec-button left-button">
+                    <div id="left-button" class="slider-services-sec-button left-button">
                         <img src="#/img/arrow-left.png" alt="">
                     </div>
-                    <div class="slider-services-sec-button right-button">
+                    <div id="right-button" class="slider-services-sec-button right-button">
                         <img src="#/img/arrow-right.png" alt="">
                     </div>
                     <div id="sliderServices" class="slider-services-sec">
