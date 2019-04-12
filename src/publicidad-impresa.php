@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
     <?php include("#/inc/head.html") ?>
-    <script src="#/js/slider.js"></script>
     <script src="#/js/slider_services.js"></script>
     <title>AORI - Branding</title>
 </head>
@@ -37,7 +36,7 @@
             <div class="services-sec-line"></div>
         </div>
     </section>
-    <?php include("#/inc/more_services_slider.html"); ?>
+    <?php include("#/inc/more_services_slider.php"); ?>
     <?php include("#/inc/footer.html") ?>
 </body>
 </html>
