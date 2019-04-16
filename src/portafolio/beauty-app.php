@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <?php include("../inc/head.html") ?>
-    <title>AORI - Portafolio - Beauty App</title>
+    <title>AORI Portafolio - Beauty App</title>
 </head>
 <body>
     <?php include("../inc/navbar.html") ?>

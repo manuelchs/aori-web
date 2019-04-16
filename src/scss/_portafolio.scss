@@ -23,6 +23,7 @@
     .project-logo {
         height: 160px;
         width: auto;
+        margin: 0 auto;
     }
 
     .project-icons {
@@ -120,6 +121,30 @@
         background-position: center;
         
     }
+    &.hyw {
+        background-image: url('#/img/portafolio/hyw/hyw-bg.png');
+        background-position: bottom center;
+    }
+    &.dr {
+        background-image: url('#/img/portafolio/dr/dr-bg.png');
+        background-position: top center;
+    }
+    &.jk {
+        background-image: url('#/img/portafolio/jk/jk-bg.png');
+        background-position: center; 
+    }
+    &.chill {
+        background-image: url('#/img/portafolio/chill/chill-bg.png');
+        background-position: center; 
+    }
+    &.fit {
+        background-image: url('#/img/portafolio/fit/fit-bg.png');
+        background-position: center; 
+    }
+    &.intermed {
+        background-image: url('#/img/portafolio/intermed/intermed-bg.png');
+        background-position: center; 
+    }
 }
 
 .project {
@@ -150,8 +175,9 @@
         .stage-img {
             margin-bottom: 3rem;
             img {
-                height: 170px;
-                width: auto;
+                width: 100%;
+                height: auto;
+                max-width: 580px;
             }
         }
 

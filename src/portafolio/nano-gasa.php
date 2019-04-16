@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <?php include("../inc/head.html") ?>
-    <title>AORI - Portafolio - Nano Gasa</title>
+    <title>AORI Portafolio - Nano Gasa</title>
 </head>
 <body>
     <?php include("../inc/navbar.html") ?>
