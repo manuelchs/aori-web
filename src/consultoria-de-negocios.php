@@ -19,6 +19,9 @@
     <section class="service-info">
         <div class="main-wrapper">
             <div class="main-wrapper-services-sec">
+                <p class="service-description">El gran diferenciador entre trabajar con nosotros contra con cualquier otra agencia, es que contamos con el “expertise” en desarrollo de modelos de negocio, proyectos de expansión, franquicias, traspasos y proyectos de inversión. Este conocimiento nos permite generar todo un portafolio de productos clave para la generación y evolución de cualquier modelo de negocio.<br><br>El objetivo de nuestra consultoría es minimizar el riesgo de tu emprendimiento o proyecto de expansión, generando un plan de acción o estrategia que nos permita orientarte hacia el mejor resultado.</p>
+            </div>
+            <div class="main-wrapper-services-sec">
                 <h2 class="title">Principales servicios dentro de esta área:</h2>
                 <div class="services-sec-list">
                     <div class="list-item"><span class="counter">a.</span><span>Entrevista de Consultoría Comercial.</span></div>
@@ -36,9 +39,6 @@
                     <img src="#/img/services/consultoria/consultoria-example-1.png" alt="">
                     <img src="#/img/services/consultoria/consultoria-example-2.png" alt="">
                 </div>
-            </div>
-            <div class="main-wrapper-services-sec">
-                <p class="service-description">El gran diferenciador entre trabajar con nosotros contra con cualquier otra agencia, es que contamos con el “expertise” en desarrollo de modelos de negocio, proyectos de expansión, franquicias, traspasos y proyectos de inversión. Este conocimiento nos permite generar todo un portafolio de productos clave para la generación y evolución de cualquier modelo de negocio.<br><br>El objetivo de nuestra consultoría es minimizar el riesgo de tu emprendimiento o proyecto de expansión, generando un plan de acción o estrategia que nos permita orientarte hacia el mejor resultado.</p>
             </div>
             <div class="services-sec-line"></div>
         </div>

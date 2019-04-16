@@ -19,6 +19,9 @@
     <section class="service-info">
         <div class="main-wrapper">
             <div class="main-wrapper-services-sec">
+                <p class="service-description">Toda plataforma digital o desarrollo de marca debe ir acompañado con elementos visuales de calidad.<br><br>Contamos con equipos de fotografía y producción de video "in house". Todas nuestras producciones se distinguen de la competencia dado a que enfocamos los esfuerzos a extraer contenido comercialmente atractativos. Esto nos permite generar un producto final que de como resultado ventas o posicionamiento a nuestros clientes.</p>
+            </div>
+            <div class="main-wrapper-services-sec">
                 <h2 class="title">Principales servicios dentro de esta área:</h2>
                 <div class="services-sec-list">
                     <div class="list-item"><span class="counter">a.</span><span>Mini clips para promoción de producto o servicio.</span></div>
@@ -58,9 +61,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="main-wrapper-services-sec">
-                <p class="service-description">Toda plataforma digital o desarrollo de marca debe ir acompañado con elementos visuales de calidad.<br><br>Contamos con equipos de fotografía y producción de video "in house". Todas nuestras producciones se distinguen de la competencia dado a que enfocamos los esfuerzos a extraer contenido comercialmente atractativos. Esto nos permite generar un producto final que de como resultado ventas o posicionamiento a nuestros clientes.</p>
             </div>
             <div class="services-sec-line"></div>
         </div>

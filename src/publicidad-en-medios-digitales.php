@@ -19,6 +19,9 @@
     <section class="service-info">
         <div class="main-wrapper">
             <div class="main-wrapper-services-sec">
+                <p class="service-description">Complementamos tu infraestructura digital con estrategias mercadológicas ajustadas al comportamiento de consumo de tu mercado meta, a través de plataformas digitales de comunicación o búsqueda como lo son Facebook&reg; y Google&reg;.<br><br>Trabajamos "inbound Marketing" o campaña BTL para generar el aforo digital o interacciones que requieres para generarte conversiones de forma medible. Permitiéndote incrementar tus ventas y abrir nuevos canales de comunicación o posicionamiento de tu marca.</p>
+            </div>
+            <div class="main-wrapper-services-sec">
                 <h2 class="title">Principales servicios dentro de esta área:</h2>
                 <div class="services-sec-list">
                     <div class="list-item"><span class="counter">a.</span><span>Desarrollo de la estrategia digital y contenidos a generar o extraer.</span></div>
@@ -55,9 +58,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="main-wrapper-services-sec">
-                <p class="service-description">Complementamos tu infraestructura digital con estrategias mercadológicas ajustadas al comportamiento de consumo de tu mercado meta, a través de plataformas digitales de comunicación o búsqueda como lo son Facebook&reg; y Google&reg;.<br><br>Trabajamos "inbound Marketing" o campaña BTL para generar el aforo digital o interacciones que requieres para generarte conversiones de forma medible. Permitiéndote incrementar tus ventas y abrir nuevos canales de comunicación o posicionamiento de tu marca.</p>
             </div>
             <div class="services-sec-line"></div>
         </div>

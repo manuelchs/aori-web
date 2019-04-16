@@ -19,6 +19,9 @@
     <section class="service-info">
         <div class="main-wrapper">
             <div class="main-wrapper-services-sec">
+                <p class="service-description">Si buscas servicio de impresión en tirajes medianos y largos, en AORI&reg; contamos con la más alta tecnología en equipos de impresión Offset, para ofrecerle la mejor calidad y tiempo de entrega, a bajo costo con diferentes papeles y gramajes.</p>
+            </div>
+            <div class="main-wrapper-services-sec">
                 <h2 class="title">Principales servicios dentro de esta área:</h2>
                 <div class="services-sec-list">
                     <div class="list-item"><span class="counter">a.</span><span>Offset</span></div>
@@ -29,9 +32,6 @@
             </div>
             <div class="main-wrapper-services-sec-large">
                 <img class="img-fill box-shadow" src="#/img/services/impresos/impresos-example-1.png" alt="">                
-            </div>
-            <div class="main-wrapper-services-sec">
-                <p class="service-description">Si buscas servicio de impresión en tirajes medianos y largos, en AORI&reg; contamos con la más alta tecnología en equipos de impresión Offset, para ofrecerle la mejor calidad y tiempo de entrega, a bajo costo con diferentes papeles y gramajes.</p>
             </div>
             <div class="services-sec-line"></div>
         </div>

@@ -30,8 +30,8 @@ $(function() {
         } else if( $(this)[0] == $('.slider-item')[3] ) {
             moverD();
         } else {
-            $('.modal-construccion').addClass('modal-show');
-            console.log('click');
+            var loc = $(this).attr('location');
+            location.href = loc;
         }
     });
 

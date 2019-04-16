@@ -19,6 +19,9 @@
     <section class="service-info">
         <div class="main-wrapper">
             <div class="main-wrapper-services-sec">
+                <p class="service-description">Como expertos en plataformas digitales. Desarrollamos productos que satisfacen las necesidades específicas de una empresa o mercado meta.<br><br>Contamos con desarrolladores expertos en front, back, database y métodos de pago en línea. Facilitando así el desarrollo de proyectos que van desde páginas web informativas hasta aplicaciones móviles compatibles tanto con sistemas Android como iOS.<br><br>Cabe resaltar que todo negocio requiere de una plataforma digital que lo complemente y permita que su mercado lo encuentre "en línea".</p>
+            </div>
+            <div class="main-wrapper-services-sec">
                 <h2 class="title">Principales servicios dentro de esta área:</h2>
                 <div class="services-sec-list">
                     <div class="list-item"><span class="counter">a.</span><span>Diseño de Plantillas web Premium</span></div>
@@ -60,9 +63,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="main-wrapper-services-sec">
-                <p class="service-description">Como expertos en plataformas digitales. Desarrollamos productos que satisfacen las necesidades específicas de una empresa o mercado meta.<br><br>Contamos con desarrolladores expertos en front, back, database y métodos de pago en línea. Facilitando así el desarrollo de proyectos que van desde páginas web informativas hasta aplicaciones móviles compatibles tanto con sistemas Android como iOS.<br><br>Cabe resaltar que todo negocio requiere de una plataforma digital que lo complemente y permita que su mercado lo encuentre "en línea".</p>
             </div>
             <div class="services-sec-line"></div>
         </div>

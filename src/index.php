@@ -5,7 +5,7 @@
     <title>AORI MX</title>
 </head>
 <body>
-    <?php include("#/inc/files-name.php") ?>
+    <?php include("#/inc/services_files_name.php") ?>
     <?php include("#/inc/navbar.html") ?>
     <section class="hero">
         <h1 class="page-title"><span class="word">brand</span><span class="title-bar"></span><span class="word">media</span><span class="title-bar"></span><span class="word">consulting</span></h1>
