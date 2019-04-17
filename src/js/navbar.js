@@ -3,14 +3,20 @@ $(function() {
     /** SCROLL **/
     $('.link-navbar').click(function(event){
         event.preventDefault();
-        scrollName = '#' + $(this).attr('scroll');
-        console.log(scrollName);
-        $('html, body').animate({
-            scrollTop: $(scrollName).offset().top - 90
-        }, 600, function() {
-            document.querySelector('#nav').classList.remove('hide-nav');
-        });
+        if ( location.pathname == '/' ) {
+            scrollName = '#' + $(this).attr('scroll');
+            console.log(scrollName);
+            $('html, body').animate({
+                scrollTop: $(scrollName).offset().top - 90
+            }, 600, function() {
+                document.querySelector('#nav').classList.remove('hide-nav');
+            });
+        } else {
+            location.href = '/#' + $(this).attr('scroll');
+        }
     });
+
+
     var nav = document.querySelector("#nav");
     var scrollPos = 0;
     var scrollUp = 0;

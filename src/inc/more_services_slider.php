@@ -1,8 +1,8 @@
 <script src="#/js/slider_more_services.js"></script>
 <?php include('inc/services_files_name.php') ?>
 <section class="more-services">
-    <h2 class="title underline ul-center">más servicios</h2>
-    <div class="main-wrapper">
+    <h2 class="title underline ul-center">otros servicios</h2>
+    <!-- <div class="main-wrapper">
         <div class="ms-slider-wrapper">
             <img id="ms-arrowLeft" class="ms-slider-button left" src="#/img/arrow-left.png" alt="">
             <img id="ms-arrowRight" class="ms-slider-button right" src="#/img/arrow-right.png" alt="">
@@ -51,5 +51,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    <?php include("#/inc/services_grid.php"); ?>
 </section>
