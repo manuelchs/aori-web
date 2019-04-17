@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <?php include("#/inc/head.html") ?>
-    <title>AORI MX</title>
+    <title>AORI - Consultoria de negocios y herramientas digitales</title>
 </head>
 <body>
     <?php include("#/inc/services_files_name.php") ?>
