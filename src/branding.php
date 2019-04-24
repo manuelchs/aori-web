@@ -6,6 +6,7 @@
     <title>AORI - Branding</title>
 </head>
 <body>
+    <?php include("#/inc/lightbox.html"); ?>
     <?php include("#/inc/navbar.html") ?>
     <section class="desfase-navbar hero-services hero-branding">
         <div class="overlay"></div>
@@ -13,7 +14,7 @@
             <div class="main-wrapper-services-sec">
                 <h1 class="title underline ul-left">Branding</h1>
             </div>
-            <img class="service-icon" src="#/img/services/branding/branding-icon.png" alt="">
+            <img class="service-icon" src="#/img/services/branding/branding-icon.png" alt="Aori Branding ícono">
         </div>
     </section>
     <section class="service-info">
@@ -35,29 +36,29 @@
             <div class="main-wrapper-services-sec-large">
                 <div class="slider-services-sec-wrapper">
                     <div id="left-button" class="slider-services-sec-button left-button">
-                        <img src="#/img/arrow-left.png" alt="">
+                        <img src="#/img/arrow-left.png" alt="flecha izquierda aori brand media consulting">
                     </div>
                     <div id="right-button" class="slider-services-sec-button right-button">
-                        <img src="#/img/arrow-right.png" alt="">
+                        <img src="#/img/arrow-right.png" alt="flecha derecha aori brand media consulting">
                     </div>
                     <div id="sliderServices" class="slider-services-sec">
                         <div class="slider-services-sec-item sm1">
-                            <img src="#/img/services/branding/branding-example-1.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/branding/branding-example-1.png" alt="Ejemplo de branding para Lord Avocado realizado por AORI BRAND MEDIA CONSULTING">
                             <p class="slider-desc">Identidad Corporativa</p>
                             <p class="brand-info">lord avocado</p>
                         </div>
                         <div class="slider-services-sec-item sm2">
-                            <img src="#/img/services/branding/branding-example-2.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/branding/branding-example-2.png" alt="Ejemplo de branding para Beauty App realizado por AORI BRAND MEDIA CONSULTING">
                             <p class="slider-desc">Brandboard</p>
                             <p class="brand-info">beauty app</p>
                         </div>
                         <div class="slider-services-sec-item sm3">
-                            <img src="#/img/services/branding/branding-example-3.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/branding/branding-example-3.png" alt="Branding en empaques para FIT 4 ALL realizado por AORI BRAND MEDIA CONSULTING">
                             <p class="slider-desc">Empaques</p>
                             <p class="brand-info">fit for all</p>
                         </div>
                         <div class="slider-services-sec-item sm4">
-                            <img src="#/img/services/branding/branding-example-4.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/branding/branding-example-4.png" alt="Brochure para STEKLO realizado por AORI BRAND MEDIA CONSULTING">
                             <p class="slider-desc">Brochure</p>
                             <p class="brand-info">steklo</p>
                         </div>

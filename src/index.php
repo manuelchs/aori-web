@@ -117,7 +117,7 @@
             <img src="#/img/te-gusta.png" alt="">
             <div>
                 <p>Este podría ser tu sitio web.</p>
-                <a>CONTÁCTANOS</a>
+                <a onclick="$('#formModal').addClass('modal-show')">CONTÁCTANOS</a>
             </div>
         </div>
     </section>
@@ -142,6 +142,13 @@
             <h2 class="title underline ul-left">sitio en construcción</h2>
             <p>Estamos trabajando en esta sección de nuestro sitio, por favor, vuelve más tarde. Gracias.</p>
             <button onclick="closeModal();" class="main-button">Continuar</button>
+        </div>
+    </div>
+    <div id="formModal" class="modal-wrapper" onclick="clickModalToClose(event, this)">
+        <div class="close-modal"></div>
+        <div class="modal-content">
+            <h2 class="title underline ul-right">Contáctanos</h2>
+            <?php include("#/inc/contacto-form.html") ?>
         </div>
     </div>
 </body>

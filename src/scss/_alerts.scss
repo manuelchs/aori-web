@@ -1,0 +1,62 @@
+.alert {
+    position: fixed;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    animation: alert .3s;
+
+    p {
+        color: white;
+    }
+
+    &.success {
+        background-color: $mainColor;
+    }
+
+    &.error {
+        background-color: $error;
+    }
+
+    .close-alert {
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+        position: relative;
+
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 3px;
+            height: 100%;
+            background-color: white;
+            top: 0;
+            left: 50%;
+            transition: all .3s;
+        }
+
+        &:before {
+            transform: translateX(-50%) rotate(-45deg);
+        }
+        &:after {
+            transform: translateX(-50%) rotate(45deg);
+        }
+    }
+}
+
+@keyframes alert {
+    from {
+        bottom: -20px;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}

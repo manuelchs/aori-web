@@ -1,15 +1,23 @@
 $(function() {
-
+    var clicked = false;
     /** SCROLL **/
     $('.link-navbar').click(function(event){
         event.preventDefault();
+        document.querySelector('#nav').classList.remove('hide-nav');
         if ( location.pathname == '/' ) {
             scrollName = '#' + $(this).attr('scroll');
             console.log(scrollName);
+            clicked = true;
             $('html, body').animate({
                 scrollTop: $(scrollName).offset().top - 90
             }, 600, function() {
-                document.querySelector('#nav').classList.remove('hide-nav');
+                setTimeout(function() {
+                    clicked = false;
+                }, 200);
+                // alert('terminé');
+                // setTimeout(function() {
+                //     document.querySelector('#nav').classList.remove('hide-nav');
+                // }, 100);
             });
         } else {
             location.href = '/#' + $(this).attr('scroll');
@@ -25,25 +33,29 @@ $(function() {
     
     window.addEventListener('scroll', function(){
         clearTimeout(counter);
-        if ((document.body.getBoundingClientRect()).top > scrollPos) {
-            // up
-            scrollDown = 0;
-            scrollUp++;
-            if ( scrollUp > 30 ) {
+        if ( !clicked ) {
+            if ((document.body.getBoundingClientRect()).top > scrollPos) {
+                // up
+                scrollDown = 0;
+                scrollUp++;
+                if ( scrollUp > 30 ) {
+                    nav.classList.remove('hide-nav');
+                }
+            } else {
+                //down
+                scrollUp = 0;
+                scrollDown++;
+                if ( scrollDown > 50 ) {
+                    nav.classList.add('hide-nav');
+                }
+            }
+        
+            // saves the new position for iteration.
+            scrollPos = (document.body.getBoundingClientRect()).top;
+            if ( window.scrollY < 120 ) {
                 nav.classList.remove('hide-nav');
             }
         } else {
-            //down
-            scrollUp = 0;
-            scrollDown++;
-            if ( scrollDown > 50 ) {
-                nav.classList.add('hide-nav');
-            }
-        }
-    
-        // saves the new position for iteration.
-        scrollPos = (document.body.getBoundingClientRect()).top;
-        if ( window.scrollY < 120 ) {
             nav.classList.remove('hide-nav');
         }
     });

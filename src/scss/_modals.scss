@@ -18,6 +18,12 @@
 .modal-content {
     background-color: white;
     padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    .title {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
 }
 
 .close-modal {
@@ -139,6 +145,17 @@
     iframe {
         width: 90%;
         height: 90%;
+    }
+}
+
+.lightbox-modal {
+    img {
+        max-width: 90%;
+        max-height: 90%;
+        background-color: white;
+        padding: 1rem;
+        box-sizing: border-box;
+        border-radius: 4px;
     }
 }
 

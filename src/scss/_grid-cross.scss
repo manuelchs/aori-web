@@ -9,6 +9,9 @@ $colorBorder: $gray1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media #{$break2} {
+        overflow-x: hidden;
+    }
 
     .grid-row {
         width: 100%;

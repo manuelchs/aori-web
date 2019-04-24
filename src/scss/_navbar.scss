@@ -183,3 +183,15 @@ nav {
         opacity: 1;
     }
 }
+
+.whatsapp-desktop {
+    @media #{$break2} {
+        display: none;
+    }
+}
+.whatsapp-mobile {
+    display: none;
+    @media #{$break2} {
+        display: block;
+    }
+}
