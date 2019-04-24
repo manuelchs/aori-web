@@ -42,12 +42,12 @@
                     </div>
                     <div id="sliderServices" class="slider-services-sec">
                         <div class="slider-services-sec-item sm1">
-                            <img src="#/img/services/web/web-example-1.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-1.png" alt="">
                             <p class="slider-desc">Diseño y Programación de Sitio Web con E-Commerce</p>
                             <p class="brand-info"><a href="http://www.steklo.mx/" target="_blank">www.steklo.mx</a></p>
                         </div>
                         <div class="slider-services-sec-item sm2">
-                            <img src="#/img/services/web/web-example-2.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-2.png" alt="">
                             <p class="slider-desc">Diseño de Interfaz</p>
                             <p class="brand-info">Intermed</p>
                         </div>
@@ -57,7 +57,7 @@
                             <p class="brand-info"><a href="http://www.pixelprint.com.mx/" target="_blank">www.pixelprint.com.mx</a></p>
                         </div>
                         <div class="slider-services-sec-item sm4">
-                            <img src="#/img/services/web/web-example-4.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-4.png" alt="">
                             <p class="slider-desc">Diseño de experiencia de usuario</p>
                             <p class="brand-info"><a href="https://www.hereyouwin.com/" target="_blank">www.hereyouwin.com</a></p>
                         </div>
