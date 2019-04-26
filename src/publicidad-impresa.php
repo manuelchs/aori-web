@@ -6,6 +6,7 @@
     <title>AORI - Branding</title>
 </head>
 <body>
+    <?php include("#/inc/lightbox.html"); ?>
     <?php include("#/inc/navbar.html") ?>
     <section class="desfase-navbar hero-services hero-impresos">
         <div class="overlay"></div>
@@ -31,7 +32,7 @@
                 </div>
             </div>
             <div class="main-wrapper-services-sec-large">
-                <img class="img-fill box-shadow" src="#/img/services/impresos/impresos-example-1.png" alt="">                
+                <img class="img-fill box-shadow lightbox-item video" youtube="1GjvMPjAjxM" src="#/img/services/impresos/impresos-example-1.png" alt="Publicidad impresa por AORI Brand Media Guadalajara y servicios de impreta">                
             </div>
             <div class="services-sec-line"></div>
         </div>

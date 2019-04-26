@@ -1,4 +1,4 @@
-<script src="#/js/slider_more_services.js"></script>
+<!-- <script src="#/js/slider_more_services.js"></script> -->
 <?php include('inc/services_files_name.php') ?>
 <section class="more-services">
     <h2 class="title underline ul-center">otros servicios</h2>

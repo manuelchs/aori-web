@@ -481,6 +481,7 @@
 
 .portfolio {
     margin-bottom: 8rem;
+
     @media #{$break2} {
         margin-bottom: 3rem;
     }
@@ -489,9 +490,17 @@
         margin-bottom: 4rem;
     }
     .main-wrapper {
+        max-width: 60rem;
         @media #{$break2} {
             width: 100%;
         }
+    }
+
+    * {
+        -webkit-user-select: none !important;
+        -moz-user-select: none !important;
+        -khtml-user-select: none !important;
+        -ms-user-select:none !important;
     }
 }
 
@@ -650,6 +659,7 @@
                         color: white;
                         text-transform: uppercase;
                         font-weight: $light;
+                        font-size: 0.8rem;
                         span {
                             color: $mainColor;
                             letter-spacing: 0.25rem;
@@ -689,7 +699,6 @@
         }
     }
 }
-
 
 .portfolio-movil {
     display: none;
@@ -1013,9 +1022,29 @@ footer {
                     font-size: 0.8rem;
                     margin-bottom: 1rem;
                     line-height: 1.3rem;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    i {
+                        color: white;
+                        font-size: 1.2rem;
+                        margin-right: 0.5rem;
+                    }
+                    span {
+                        color: white;
+                        font-size: inherit;
+                    }
                     &:hover {
                         text-decoration: underline;
                         cursor: pointer;
+                    }
+                    &.icon-text {
+                        &:hover {
+                            text-decoration: none;
+                            span {
+                                text-decoration: underline;
+                            }
+                        }
                     }
                 }
             }
@@ -1036,7 +1065,7 @@ footer {
                             margin-right: 0;
                         }
                         img {
-                            height: 34px;
+                            height: 24px;
                             width: auto;
                         }
                     }

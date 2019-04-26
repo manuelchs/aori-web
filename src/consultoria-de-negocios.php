@@ -13,7 +13,7 @@
             <div class="main-wrapper-services-sec">
                 <h1 class="title underline ul-left">Consultoría<br>de Negocios</h1>
             </div>
-            <img class="service-icon" src="#/img/services/consultoria/consultoria-icon.png" alt="">
+            <img class="service-icon" src="#/img/services/consultoria/consultoria-icon.png" alt="icono de consultoria de negocios de AORI BRAND MEDIA CONSULTING">
         </div>
     </section>
     <section class="service-info">
@@ -36,8 +36,8 @@
             </div>
             <div class="main-wrapper-services-sec-large">
                 <div class="services-two-image">
-                    <img src="#/img/services/consultoria/consultoria-example-1.png" alt="">
-                    <img src="#/img/services/consultoria/consultoria-example-2.png" alt="">
+                    <img src="#/img/services/consultoria/consultoria-example-1.png" alt="Equipo de consultoria de negocios de aori brand media">
+                    <img src="#/img/services/consultoria/consultoria-example-2.png" alt="Equipo de consultoria de negocios de aori brand media consulting">
                 </div>
             </div>
             <div class="services-sec-line"></div>

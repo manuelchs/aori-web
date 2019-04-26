@@ -43,7 +43,7 @@
                     </div>
                     <div id="sliderServices" class="slider-services-sec">
                         <div class="slider-services-sec-item sm1">
-                            <img class="lightbox-item" src="#/img/services/branding/branding-example-1.png" alt="Ejemplo de branding para Lord Avocado realizado por AORI BRAND MEDIA CONSULTING">
+                            <img class="lightbox-item bg" src="#/img/services/branding/branding-example-1.png" alt="Ejemplo de branding para Lord Avocado realizado por AORI BRAND MEDIA CONSULTING">
                             <p class="slider-desc">Identidad Corporativa</p>
                             <p class="brand-info">lord avocado</p>
                         </div>

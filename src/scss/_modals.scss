@@ -152,10 +152,12 @@
     img {
         max-width: 90%;
         max-height: 90%;
-        background-color: white;
-        padding: 1rem;
-        box-sizing: border-box;
-        border-radius: 4px;
+        &.bg {
+            box-sizing: border-box;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 4px;
+        }
     }
 }
 

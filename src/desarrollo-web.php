@@ -6,6 +6,7 @@
     <title>AORI - Desarrollo Web y de Apps</title>
 </head>
 <body>
+    <?php include("#/inc/lightbox.html"); ?>    
     <?php include("#/inc/navbar.html") ?>
     <section class="desfase-navbar hero-services hero-web">
         <div class="overlay"></div>
@@ -13,7 +14,7 @@
             <div class="main-wrapper-services-sec">
                 <h1 class="title underline ul-left">Diseño y Desarrollo<br>Web o de Apps</h1>
             </div>
-            <img class="service-icon" src="#/img/services/web/web-icon.png" alt="">
+            <img class="service-icon" src="#/img/services/web/web-icon.png" alt="icono de paginas o sitios web y aplicaciones móviles para AORI Brand Media Consulting">
         </div>
     </section>
     <section class="service-info">
@@ -35,29 +36,29 @@
             <div class="main-wrapper-services-sec-large">
                 <div class="slider-services-sec-wrapper">
                     <div id="left-button" class="slider-services-sec-button left-button">
-                        <img src="#/img/arrow-left.png" alt="">
+                        <img src="#/img/arrow-left.png" alt="Flecha izquierda de AORI Brand Media Consulting">
                     </div>
                     <div id="right-button" class="slider-services-sec-button right-button">
-                        <img src="#/img/arrow-right.png" alt="">
+                        <img src="#/img/arrow-right.png" alt="Flecha derecha de AORI Brand Media Consulting">
                     </div>
                     <div id="sliderServices" class="slider-services-sec">
                         <div class="slider-services-sec-item sm1">
-                            <img class="lightbox-item" src="#/img/services/web/web-example-1.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-1.png" alt="Sitio web para steklo.mx de AORI Brand Media Consulting">
                             <p class="slider-desc">Diseño y Programación de Sitio Web con E-Commerce</p>
                             <p class="brand-info"><a href="http://www.steklo.mx/" target="_blank">www.steklo.mx</a></p>
                         </div>
                         <div class="slider-services-sec-item sm2">
-                            <img class="lightbox-item" src="#/img/services/web/web-example-2.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-2.png" alt="Diseño de la interfaz de intermed por AORI Brand Media Consulting">
                             <p class="slider-desc">Diseño de Interfaz</p>
                             <p class="brand-info">Intermed</p>
                         </div>
                         <div class="slider-services-sec-item sm3">
-                            <img src="#/img/services/web/web-example-3.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-3.png" alt="Diseño y programación de sitio web para Pixel Print por AORI Brand Media Consulting">
                             <p class="slider-desc">Diseño y Programación de ERP</p>
                             <p class="brand-info"><a href="http://www.pixelprint.com.mx/" target="_blank">www.pixelprint.com.mx</a></p>
                         </div>
                         <div class="slider-services-sec-item sm4">
-                            <img class="lightbox-item" src="#/img/services/web/web-example-4.png" alt="">
+                            <img class="lightbox-item" src="#/img/services/web/web-example-4.png" alt="Diseño de experiencia de usuario o UX por AORI Brand Media Consulting para Here You Win">
                             <p class="slider-desc">Diseño de experiencia de usuario</p>
                             <p class="brand-info"><a href="https://www.hereyouwin.com/" target="_blank">www.hereyouwin.com</a></p>
                         </div>

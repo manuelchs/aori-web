@@ -53,12 +53,13 @@ function instaFeed(data) {
 }
 
 function closeModal() {
-    $('#frameVideo').attr('src', '');
+    $('iframe').attr('src', '');
     $('.modal-show').removeClass('modal-show');
     setTimeout( function() {
         $('#loader').removeClass('d-none');
         $('#frameVideo').addClass('d-none');
-    }, 100)
+        $('iframe').addClass('d-none');
+    }, 200)
 }
 
 function clickModalToClose(e, modal) {
