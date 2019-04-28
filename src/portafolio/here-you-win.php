@@ -5,6 +5,7 @@
     <title>AORI Portafolio - Here You Win</title>
 </head>
 <body>
+    <?php include("../inc/lightbox.html"); ?>
     <?php include("../inc/navbar.html") ?>
     <section class="desfase-navbar hero-portafolio hyw">
         <div class="info-project">
@@ -35,7 +36,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/hyw-logo.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw-logo.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -45,7 +46,7 @@
             <div class="project-stage">
                 <h2 class="title">web</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/hyw/hyw-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-2.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de página web y app fácilmentereconocible y accesible.</p>
@@ -55,7 +56,7 @@
             <div class="project-stage">
                 <h2 class="title">app</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/hyw/hyw-3.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-3.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo adaptable.</p>
@@ -65,7 +66,7 @@
             <div class="project-stage">
                 <h2 class="title">video</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/hyw/hyw-4.png" alt="">
+                    <img class="lightbox-item video" youtube="nozvUfgB0jc" src="#/img/portafolio/hyw/hyw-4.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de motion graphics para video explainer</p>
@@ -75,7 +76,7 @@
             <div class="project-stage">
                 <h2 class="title">marketing digital</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/hyw/hyw-5.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-5.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Creación de contenido para Facebook e Instagram</p>

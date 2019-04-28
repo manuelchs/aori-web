@@ -5,6 +5,7 @@
     <title>AORI Portafolio - Nano Gasa</title>
 </head>
 <body>
+    <?php include("../inc/lightbox.html"); ?>
     <?php include("../inc/navbar.html") ?>
     <section class="desfase-navbar hero-portafolio nano">
         <div class="info-project">
@@ -36,7 +37,7 @@ adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img marca-nano">
-                    <img src="#/img/portafolio/nano/nano-1.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/nano/nano-1.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -46,7 +47,7 @@ adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
             <div class="project-stage">
                 <h2 class="title">empaque</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/nano/nano-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/nano/nano-2.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Diseño de empaque.</p>
@@ -56,7 +57,7 @@ adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
             <div class="project-stage">
                 <h2 class="title">web</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/nano/nano-3.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/nano/nano-3.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo y adaptable.</p>

@@ -5,6 +5,7 @@
     <title>AORI Portafolio - Chill Jeans</title>
 </head>
 <body>
+    <?php include("../inc/lightbox.html"); ?>
     <?php include("../inc/navbar.html") ?>
     <section class="desfase-navbar hero-portafolio chill">
         <div class="info-project">
@@ -31,7 +32,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/chill-logo.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/chill-logo.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -41,7 +42,7 @@
             <div class="project-stage">
                 <h2 class="title">impreso</h2>
                 <div class="stage-img">
-                    <img src="#/img/portafolio/chill/chill-2.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/chill/chill-2.png" alt="">
                 </div>
                 <div class="stage-desc">
                     <p>Material impreso de branding</p>
