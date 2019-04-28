@@ -10,11 +10,11 @@
     <section class="hero">
         <h1 class="page-title"><span class="word">brand</span><span class="title-bar"></span><span class="word">media</span><span class="title-bar"></span><span class="word">consulting</span></h1>
         <div class="path-hero">
-            <img  class="hero-animated hero-1" src="#/img/hero/hero-1.png" alt="">
-            <img  class="hero-animated hero-3" src="#/img/hero/hero-3.png" alt="">
-            <img  class="hero-animated hero-2" src="#/img/hero/hero-2.png" alt="">
-            <img  class="hero-pleca pleca-top" src="#/img/hero/pleca.png" alt="">
-            <img  class="hero-pleca pleca-bottom" src="#/img/hero/pleca.png" alt="">
+            <img class="hero-animated hero-1" src="#/img/hero/hero-1.png" alt="">
+            <img class="hero-animated hero-3" src="#/img/hero/hero-3.png" alt="">
+            <img class="hero-animated hero-2" src="#/img/hero/hero-2.png" alt="">
+            <img class="hero-pleca pleca-top" src="#/img/hero/pleca.png" alt="">
+            <img class="hero-pleca pleca-bottom" src="#/img/hero/pleca.png" alt="">
         </div>
         <img alt="Crossmedia AORI" title="Dispositivos para desarrollar" draggable="false" src="#/img/dispositivos.png" alt="">
     </section>
