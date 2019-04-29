@@ -4,12 +4,12 @@
     <h2 class="title underline ul-center">otros servicios</h2>
     <!-- <div class="main-wrapper">
         <div class="ms-slider-wrapper">
-            <img id="ms-arrowLeft" class="ms-slider-button left" src="#/img/arrow-left.png" alt="">
-            <img id="ms-arrowRight" class="ms-slider-button right" src="#/img/arrow-right.png" alt="">
+            <img id="ms-arrowLeft" class="ms-slider-button left" src="#/img/arrow-left.png" alt="Botón izquierdo de galería">
+            <img id="ms-arrowRight" class="ms-slider-button right" src="#/img/arrow-right.png" alt="Botón derecho de galería">
             <div id="ms-slider" class="ms-slider">
                 <div class="ms-slider-item">
                     <a class="info" href="<?php echo $consultoria; ?>">
-                        <img src="#/img/consultoria.png" alt="">
+                        <img src="#/img/consultoria.png" alt="Consultoría">
                         <h4>Consultoria de Negocios</h4>
                         <button class="service-button">Ver más</button>
                     </a>
