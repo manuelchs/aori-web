@@ -1079,6 +1079,10 @@ footer {
                             height: 24px;
                             width: auto;
                         }
+                        i {
+                            color: white;
+                            font-size: 1.8rem;
+                        }
                     }
                 }
 
@@ -1098,10 +1102,21 @@ footer {
 
     .footer-close {
         background-color: white;
-        color: $gray2;
         text-align: center;
         padding: 1rem 0;
-        font-size: 0.8rem;
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p {
+            font-size: 0.8rem;
+            color: $gray2;
+        }
+        img {
+            height: 38px;
+            width: auto;
+        }
     }
 }
 
