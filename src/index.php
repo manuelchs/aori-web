@@ -16,7 +16,7 @@
             <img class="hero-pleca pleca-top" src="#/img/hero/pleca.png" alt="">
             <img class="hero-pleca pleca-bottom" src="#/img/hero/pleca.png" alt="">
         </div>
-        <img alt="Crossmedia AORI" title="Dispositivos para desarrollar" draggable="false" src="#/img/dispositivos.png" alt="">
+        <img alt="multimedia con AORI Brand Media Consulting" title="Dispositivos para desarrollar" draggable="false" src="#/img/dispositivos.png">
     </section>
     <section id="about" class="about">
         <div class="main-wrapper">
@@ -25,6 +25,7 @@
                 <h2 class="title underline high-margin mb-2">¿Quienes somos?</h2>
                 <p>Somos una firma consultora de negocios enfocada a potencializar tus resultados por medio del uso de herramientas digitales.<br><br>Nuestra área de consultoría será la clave para que logres los objetivos comerciales y posicionamiento de marca deseas.<br><br>Nuestro objetivo es desarrollar los mejores modelos de negocio y herramientas digitales a nivel internacional.</p>
             </div>
+            <img class="multimedia-responsive" alt="multimedia con AORI Brand Media Consulting" title="Dispositivos para desarrollar" draggable="false" src="#/img/dispositivos.png">
         </div>
     </section>
     <section class="preview-video">
