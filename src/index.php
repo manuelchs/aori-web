@@ -34,7 +34,7 @@
         </div>
         <img src="#/img/preview-1.gif" alt="">
     </section>
-    <section class="method">
+    <section id="methodology" class="method">
         <h2 class="title underline mb-2">metodología</h2>
         <div class="main-wrapper aori-cards">
             <div class="aori-card">
@@ -95,7 +95,7 @@
         </div>
         <img src="#/img/preview-2.gif" alt="">
     </section>
-    <section class="team">
+    <section id="team" class="team">
         <h2 class="title underline ul-center">Nuestro equipo</h2>
         <p class="main-wrapper"><span>"Una empresa es tan buena como el equipo que la conforma." – Juan Riestra.</span><br><br>En AORI, nuestro equipo está compuesto por mercadologos, publirrelacionistas, diseñadores, ilustradores, animadores gráficos, programadores y expertos en impresión. Lo que hace que nuestros trabajos tengan un gran diseño que sea comercialmente efectivo.</p>
         <div class="main-wrapper team-cards">

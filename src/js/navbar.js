@@ -11,6 +11,11 @@ $(function() {
             $('html, body').animate({
                 scrollTop: $(scrollName).offset().top - 90
             }, 600, function() {
+                if ( screen.width < 900 ) {
+                    $('.menu-wrapper').removeClass('d-flex');
+                    $('.social-wrapper').removeClass('d-flex');
+                    $('#burger').removeClass('open');
+                }
                 setTimeout(function() {
                     clicked = false;
                 }, 200);
@@ -82,5 +87,10 @@ $(function() {
             $('.menu-wrapper').addClass('d-flex');
             $('.social-wrapper').addClass('d-flex');
         }
+    });
+
+    $('#navbar-form').click(function() {
+        event.preventDefault();
+        $('#formModal').addClass('modal-show');
     });
 });

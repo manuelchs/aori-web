@@ -1098,10 +1098,21 @@ footer {
 
     .footer-close {
         background-color: white;
-        color: $gray2;
         text-align: center;
         padding: 1rem 0;
-        font-size: 0.8rem;
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p {
+            font-size: 0.8rem;
+            color: $gray2;
+        }
+        img {
+            height: 50px;
+            width: auto;
+        }
     }
 }
 
