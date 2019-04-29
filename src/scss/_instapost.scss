@@ -1,6 +1,6 @@
 .instapost-wrapper {
     overflow: hidden;
-    max-width: 300px;
+    max-width: 550px;
     margin: auto;
     position: relative;
     margin-top: 8rem;
@@ -14,6 +14,7 @@
         opacity: 0.5;
         transition: all .3s;
         cursor: pointer;
+        text-shadow: 3px 3px 15px rgba(black, 0.6);
         @media #{$break2} {
             display: none;
         }
@@ -60,7 +61,7 @@
         background-color: white;
         margin-right: 0.5rem;
         opacity: 0.4;
-
+        box-shadow: 3px 3px 10px black;
         &.active {
             opacity: 1;
         }
@@ -69,6 +70,11 @@
         }
 
     }
+}
+
+.instatext {
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .s1 {
