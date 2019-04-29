@@ -14,7 +14,7 @@
             <div class="main-wrapper-services-sec">
                 <h1 class="title underline ul-left">Publicidad Impresa</h1>
             </div>
-            <img class="service-icon" src="#/img/services/impresos/impresos-icon.png" alt="">
+            <img class="service-icon" src="#/img/services/impresos/impresos-icon.png" alt="Ícono impresos">
         </div>
     </section>
     <section class="service-info">

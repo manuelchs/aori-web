@@ -13,7 +13,7 @@
             <div class="main-wrapper-services-sec">            
                 <h1 class="title underline ul-left">Publicidad<br>en Medios Digitales</h1>
             </div>
-            <img class="service-icon" src="#/img/services/digitales/digitales-icon.png" alt="">
+            <img class="service-icon" src="#/img/services/digitales/digitales-icon.png" alt="Ícono digital">
         </div>
     </section>
     <section class="service-info">
@@ -34,26 +34,26 @@
             <div class="main-wrapper-services-sec-large">
                 <div class="slider-services-sec-wrapper">
                     <div id="left-button" class="slider-services-sec-button left-button">
-                        <img src="#/img/arrow-left.png" alt="">
+                        <img src="#/img/arrow-left.png" alt="Flecha izquierda">
                     </div>
                     <div id="right-button" class="slider-services-sec-button right-button">
-                        <img src="#/img/arrow-right.png" alt="">
+                        <img src="#/img/arrow-right.png" alt="Flecha derecha">
                     </div>
                     <div id="sliderServices" class="slider-services-sec">
                         <div class="slider-services-sec-item sm1">
-                            <img src="#/img/services/digitales/digitales-example-1.png" alt="">
+                            <img src="#/img/services/digitales/digitales-example-1.png" alt="Digitales ejemplo 1">
                             <p class="slider-desc">Google&reg; Adwords</p>
                         </div>
                         <div class="slider-services-sec-item sm2">
-                            <img src="#/img/services/digitales/digitales-example-2.png" alt="">
+                            <img src="#/img/services/digitales/digitales-example-2.png" alt="Digitales ejemplo 2">
                             <p class="slider-desc">Posicionamiento en Google&reg;</p>
                         </div>
                         <div class="slider-services-sec-item sm3">
-                            <img src="#/img/services/digitales/digitales-example-1.png" alt="">
+                            <img src="#/img/services/digitales/digitales-example-1.png" alt="Digitales ejemplo 1">
                             <p class="slider-desc">Google&reg; Adwords</p>
                         </div>
                         <div class="slider-services-sec-item sm4">
-                            <img src="#/img/services/digitales/digitales-example-2.png" alt="">
+                            <img src="#/img/services/digitales/digitales-example-2.png" alt="Digitales ejemplo 2">
                             <p class="slider-desc">Posicionamiento en Google&reg;</p>
                         </div>
                     </div>

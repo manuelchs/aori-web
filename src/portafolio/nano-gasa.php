@@ -10,18 +10,18 @@
     <section class="desfase-navbar hero-portafolio nano">
         <div class="info-project">
             <div class="logo-icons">
-                <img class="project-logo" src="#/img/portafolio/nano-logo.png" alt="">
+                <img class="project-logo" src="#/img/portafolio/nano-logo.png" alt="Logo Nano">
                 <div class="project-icons">
                     <div class="icon-wrapper">
-                        <img src="#/img/branding.png" alt="">
+                        <img src="#/img/branding.png" alt="Nano branding">
                         <span>Branding</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/web.png" alt="">
+                        <img src="#/img/web.png" alt="Nano web">
                         <span>Desarrollo Web & Apps</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/impreso.png" alt="">
+                        <img src="#/img/impreso.png" alt="Nano impreso">
                         <span>Publicidad impresa</span>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img marca-nano">
-                    <img class="lightbox-item bg" src="#/img/portafolio/nano/nano-1.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/nano/nano-1.png" alt="Nano ejemplo 1">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -47,7 +47,7 @@ adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
             <div class="project-stage">
                 <h2 class="title">empaque</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/nano/nano-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/nano/nano-2.png" alt="Nano ejemplo 2">
                 </div>
                 <div class="stage-desc">
                     <p>Diseño de empaque.</p>
@@ -57,7 +57,7 @@ adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
             <div class="project-stage">
                 <h2 class="title">web</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/nano/nano-3.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/nano/nano-3.png" alt="Nano ejemplo 3">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo y adaptable.</p>
