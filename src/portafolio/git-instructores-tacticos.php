@@ -10,22 +10,22 @@
     <section class="desfase-navbar hero-portafolio git">
         <div class="info-project">
             <div class="logo-icons">
-                <img class="project-logo" src="#/img/portafolio/git-logo.png" alt="">
+                <img class="project-logo" src="#/img/portafolio/git-logo.png" alt="Logo git">
                 <div class="project-icons">
                     <div class="icon-wrapper">
-                        <img src="#/img/branding.png" alt="">
+                        <img src="#/img/branding.png" alt="Git branding">
                         <span>Branding</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/web.png" alt="">
+                        <img src="#/img/web.png" alt="Git web">
                         <span>Desarrollo Web & Apps</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/impreso.png" alt="">
+                        <img src="#/img/impreso.png" alt="Git impreso">
                         <span>Publicidad Impresa</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/clips.png" alt="">
+                        <img src="#/img/clips.png" alt="Git clips">
                         <span>Miniclips y Fotografía</span>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item bg" src="#/img/portafolio/git-logo.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/git-logo.png" alt="Logo git">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo</p>
@@ -50,7 +50,7 @@
             <div class="project-stage">
                 <h2 class="title">brochure</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item bg" src="#/img/portafolio/git/git-1.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/git/git-1.png" alt="Git ejemplo 1">
                 </div>
                 <div class="stage-desc">
                     <p>Diseño de material informativo</p>
@@ -60,7 +60,7 @@
             <div class="project-stage">
                 <h2 class="title">fotografía</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/git/git-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/git/git-2.png" alt="Git ejemplo 2">
                 </div>
                 <div class="stage-desc">
                     <p>Sesión y edición de fotografiía</p>
@@ -70,7 +70,7 @@
             <div class="project-stage">
                 <h2 class="title">web</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/git/git-3.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/git/git-3.png" alt="Git ejemplo 3">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo y adaptable</p>
@@ -80,7 +80,7 @@
             <div class="project-stage">
                 <h2 class="title">video</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/git/git-4.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/git/git-4.png" alt="Git ejemplo 4">
                 </div>
                 <div class="stage-desc">
                     <p>Produccion y edicion de video</p>

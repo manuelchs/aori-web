@@ -10,18 +10,18 @@
     <section class="desfase-navbar hero-portafolio hyw">
         <div class="info-project">
             <div class="logo-icons">
-                <img class="project-logo" src="#/img/portafolio/hyw-logo.png" alt="">
+                <img class="project-logo" src="#/img/portafolio/hyw-logo.png" alt="Logo Hyw">
                 <div class="project-icons">
                     <div class="icon-wrapper">
-                        <img src="#/img/branding.png" alt="">
+                        <img src="#/img/branding.png" alt="Hyw branding">
                         <span>Branding</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/web.png" alt="">
+                        <img src="#/img/web.png" alt="Hyw web">
                         <span>Desarrollo Web & Apps</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/clips.png" alt="">
+                        <img src="#/img/clips.png" alt="Hyw video">
                         <span>Miniclips y Fotografía</span>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/hyw-logo.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw-logo.png" alt="Logo hyw">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -46,7 +46,7 @@
             <div class="project-stage">
                 <h2 class="title">web</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-2.png" alt="Hyw ejemplo 2">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de página web y app fácilmentereconocible y accesible.</p>
@@ -56,7 +56,7 @@
             <div class="project-stage">
                 <h2 class="title">app</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-3.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-3.png" alt="Hyw ejemplo 3">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo adaptable.</p>
@@ -66,7 +66,7 @@
             <div class="project-stage">
                 <h2 class="title">video</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item video" youtube="nozvUfgB0jc" src="#/img/portafolio/hyw/hyw-4.png" alt="">
+                    <img class="lightbox-item video" youtube="nozvUfgB0jc" src="#/img/portafolio/hyw/hyw-4.png" alt="Hyw ejemplo 4">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de motion graphics para video explainer</p>
@@ -76,7 +76,7 @@
             <div class="project-stage">
                 <h2 class="title">marketing digital</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-5.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-5.png" alt="Hyw ejemplo 5">
                 </div>
                 <div class="stage-desc">
                     <p>Creación de contenido para Facebook e Instagram</p>

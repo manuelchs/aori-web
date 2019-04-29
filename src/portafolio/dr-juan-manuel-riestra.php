@@ -10,18 +10,18 @@
     <section class="desfase-navbar hero-portafolio dr">
         <div class="info-project">
             <div class="logo-icons">
-                <img class="project-logo" src="#/img/portafolio/dr-logo.png" alt="">
+                <img class="project-logo" src="#/img/portafolio/dr-logo.png" alt="Logo Dr">
                 <div class="project-icons">
                     <div class="icon-wrapper">
-                        <img src="#/img/branding.png" alt="">
+                        <img src="#/img/branding.png" alt="Dr branding">
                         <span>Branding</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/web.png" alt="">
+                        <img src="#/img/web.png" alt="Dr web">
                         <span>Desarrollo Web & Apps</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/impreso.png" alt="">
+                        <img src="#/img/impreso.png" alt="Dr impreso">
                         <span>Publicidad Impresa</span>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item bg" src="#/img/portafolio/dr/dr-1.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/dr/dr-1.png" alt="Dr ejemplo 1">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -48,7 +48,7 @@
             <div class="project-stage">
                 <h2 class="title">papelería</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-2.png" alt="Dr ejemplo 2">
                 </div>
                 <div class="stage-desc">
                     <p>Papelería corporativa</p>
@@ -59,7 +59,7 @@
             <div class="project-stage">
                 <h2 class="title">web</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-3.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-3.png" alt="Dr ejemplo 3">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo adaptable.</p>
@@ -70,7 +70,7 @@
             <div class="project-stage">
                 <h2 class="title">Marketing digital fb</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-4.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-4.png" alt="Dr ejemplo 4">
                 </div>
                 <div class="stage-desc">
                     <p>Estrategía y contenido.</p>
@@ -81,7 +81,7 @@
             <div class="project-stage">
                 <h2 class="title">MARKETING DIGITAL IG</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-5.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/dr/dr-5.png" alt="Dr ejemplo 5">
                 </div>
                 <div class="stage-desc">
                     <p>Contenido para público meta</p>

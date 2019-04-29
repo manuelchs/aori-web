@@ -10,14 +10,14 @@
     <section class="desfase-navbar hero-portafolio beauty">
         <div class="info-project">
             <div class="logo-icons">
-                <img class="project-logo" src="#/img/portafolio/beauty-logo.png" alt="">
+                <img class="project-logo" src="#/img/portafolio/beauty-logo.png" alt="Logo Beauty">
                 <div class="project-icons">
                     <div class="icon-wrapper">
-                        <img src="#/img/branding.png" alt="">
+                        <img src="#/img/branding.png" alt="Branding AORI">
                         <span>Branding</span>
                     </div>
                     <div class="icon-wrapper">
-                        <img src="#/img/web.png" alt="">
+                        <img src="#/img/web.png" alt="Web AORI">
                         <span>Desarrollo Web & Apps</span>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item bg" src="#/img/portafolio/beauty/beauty-1.png" alt="">
+                    <img class="lightbox-item bg" src="#/img/portafolio/beauty/beauty-1.png" alt="Beauty ejemplo 1">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -42,7 +42,7 @@
             <div class="project-stage">
                 <h2 class="title">app</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/beauty/beauty-2.png" alt="">
+                    <img class="lightbox-item" src="#/img/portafolio/beauty/beauty-2.png" alt="Beauty ejemplo 2">
                 </div>
                 <div class="stage-desc">
                     <p>Desarrollo de diseño responsivo y adaptable</p>
