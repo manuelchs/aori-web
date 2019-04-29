@@ -59,6 +59,7 @@
                     </div>
                 </div>
             </div>
+            <?php include("#/inc/instapost.html") ?>
             <div class="services-sec-line"></div>
         </div>
     </section>
