@@ -91,7 +91,7 @@
         align-items: center;
         @media #{$break2} {
             width: 95%;
-            top: 20%;
+            top: 50%;
         }
         span {
             display: block;
@@ -147,7 +147,11 @@
         position: relative;
 
         @media #{$break2} {
-            height: 56vw;
+            height: 60vw;
+            // -webkit-clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 50% 100%);
+            // clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 50% 100%);
+            clip-path: unset;
+            -webkit-clip-path: unset;
         }
 
         .hero-animated {
@@ -212,9 +216,7 @@
         margin-top: -30vh;
 
         @media #{$break2} {
-            width: 75%;
-            height: auto;
-            margin-top: -22vh;
+            display: none;
         }
         @media (min-aspect-ratio: 8/7) {
             height: 30vh;
@@ -225,14 +227,14 @@
 .about {
     padding: 10rem 0 8rem;
     @media #{$break2} {
-        padding: 8rem 0;
+        padding: 0;
     }
     .main-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
         @media #{$break2} {
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
         
         & > img {
@@ -241,7 +243,8 @@
             margin-right: 4rem;
             @media #{$break2} {
                 margin-right: 0;
-                margin-top: 4rem;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
                 width: 80%;
                 height: auto;
             }
@@ -253,6 +256,14 @@
             @media #{$break2} {
                 width: 100%;
             }
+        }
+    }
+    .multimedia-responsive {
+        display: none;
+        width: 100%;
+        height: auto;
+        @media #{$break2} {
+            display: block;
         }
     }
 }
@@ -541,8 +552,8 @@
         height: 33vw;
         max-height: calc(1152px / 3);
         @media #{$break2} {
-            width: 620%;
-            height: 80vw;
+            width: 520%;
+            height: 70vw;
             padding-bottom: 81px;
         }
 
@@ -554,7 +565,7 @@
             align-items: center;
             transition: all .3s;
             @media #{$break2} {
-                width: 60%;
+                width: 50%;
             }
             .item-content {
                 width: 60%;
@@ -669,7 +680,7 @@
             }
             &.active {
                 @media #{$break2} {
-                    width: 80%;
+                    width: 70%;
                 }
                 .item-content {
                     width: 100%;
