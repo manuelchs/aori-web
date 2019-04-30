@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="main-wrapper-services-sec-large">
-                <div class="slider-services-sec-wrapper">
+                <div class="slider-services-sec-wrapper mb-5">
                     <div id="left-button" class="slider-services-sec-button left-button">
                         <img src="#/img/arrow-left.png" alt="Flecha izquierda">
                     </div>

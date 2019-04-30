@@ -1,6 +1,6 @@
 <div class="main-wrapper grid-info">
     <div class="grid-row">
-        <div class="info-wrapper">
+        <div class="info-wrapper fade fade-left">
             <div class="info">
                 <img src="#/img/consultoria.png" alt="Servicio de consultoría por AORI">
                 <h4 class="subtitle">Consultoría de Negocios</h4>
@@ -8,7 +8,7 @@
                 <a href="<?php echo $consultoria; ?>" class="service-button" service="consultoria">> Ver más</a>
             </div>
         </div>
-        <div class="info-wrapper">
+        <div class="info-wrapper fade fade-top">
             <div class="info">
                 <img src="#/img/branding.png" alt="Servicio de branding por AORI">
                 <h4 class="subtitle">Branding</h4>
@@ -16,7 +16,7 @@
                 <a href="<?php echo $branding; ?>" class="service-button" service="branding">> Ver más</a>
             </div>
         </div>
-        <div class="info-wrapper">
+        <div class="info-wrapper fade fade-right">
             <div class="info">
                 <img src="#/img/clips.png" alt="Servicio de video por AORI">
                 <h4 class="subtitle">Miniclips y fotografía</h4>
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="grid-row">
-        <div class="info-wrapper">
+        <div class="info-wrapper fade fade-left">
             <div class="info">
                 <img src="#/img/web.png" alt="Servicio de desarrollo web por AORI">
                 <h4 class="subtitle">Desarrollo Web y Apps</h4>
@@ -34,7 +34,7 @@
                 <a href="<?php echo $web; ?>" class="service-button" service="web">> Ver más</a>
             </div>
         </div>
-        <div class="info-wrapper">
+        <div class="info-wrapper fade fade-bottom">
             <div class="info">
                 <img src="#/img/digital.png" alt="Servicio digital por AORI">
                 <h4 class="subtitle">Publicidad en Medios Digitales</h4>
@@ -42,7 +42,7 @@
                 <a href="<?php echo $digitales; ?>" class="service-button" service="digitales">> Ver más</a>
             </div>
         </div>
-        <div class="info-wrapper">
+        <div class="info-wrapper fade fade-right">
             <div class="info">
                 <img src="#/img/impreso.png" alt="Servicio impreso por AORI">
                 <h4 class="subtitle">Publicidad impresa</h4>

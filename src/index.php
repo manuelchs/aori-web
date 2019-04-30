@@ -20,12 +20,12 @@
     </section>
     <section id="about" class="about">
         <div class="main-wrapper">
-            <img alt="Good design is good business" src="#/img/good-design-aori.png" alt="">
+            <img class="fade fade-left" alt="Good design is good business" src="#/img/good-design-aori.png">
             <div class="about-txt">
-                <h2 class="title underline high-margin mb-2">¿Quienes somos?</h2>
-                <p>Somos una firma consultora de negocios enfocada a potencializar tus resultados por medio del uso de herramientas digitales.<br><br>Nuestra área de consultoría será la clave para que logres los objetivos comerciales y posicionamiento de marca deseas.<br><br>Nuestro objetivo es desarrollar los mejores modelos de negocio y herramientas digitales a nivel internacional.</p>
+                <h2 class="title underline high-margin mb-2 fade fade-right">¿Quienes somos?</h2>
+                <p class="fade fade-right">Somos una firma consultora de negocios enfocada a potencializar tus resultados por medio del uso de herramientas digitales.</p><p>Nuestra área de consultoría será la clave para que logres los objetivos comerciales y posicionamiento de marca deseas.<br><br>Nuestro objetivo es desarrollar los mejores modelos de negocio y herramientas digitales a nivel internacional.</p>
             </div>
-            <img class="multimedia-responsive" alt="multimedia con AORI Brand Media Consulting" title="Dispositivos para desarrollar" draggable="false" src="#/img/dispositivos.png">
+            <img class="multimedia-responsive fade fade-bottom" alt="multimedia con AORI Brand Media Consulting" title="Dispositivos para desarrollar" draggable="false" src="#/img/dispositivos.png">
         </div>
     </section>
     <section class="preview-video">
@@ -35,9 +35,9 @@
         <img src="#/img/preview-1.gif" alt="">
     </section>
     <section id="methodology" class="method">
-        <h2 class="title underline mb-2">metodología</h2>
+        <h2 class="title underline mb-2 fade fade-top">metodología</h2>
         <div class="main-wrapper aori-cards">
-            <div class="aori-card">
+            <div class="aori-card fade fade-left">
                 <div class="background-wrapper">
                     <img class="background" src="#/img/img-a.png" alt="A de AORI fondo">
                 </div>
@@ -46,7 +46,7 @@
                     <p>Análisis de proyecto</p>
                 </div>
             </div>
-            <div class="aori-card">
+            <div class="aori-card fade fade-left">
                 <div class="background-wrapper">
                     <img class="background" src="#/img/img-o.png" alt="O de AORI fondo">
                 </div>
@@ -55,7 +55,7 @@
                     <p>Optimización del modelo de negocio</p>
                 </div>
             </div>
-            <div class="aori-card">
+            <div class="aori-card fade fade-right">
                 <div class="background-wrapper">
                     <img class="background" src="#/img/img-r.png" alt="R de AORI fondo">
                 </div>
@@ -64,7 +64,7 @@
                     <p>Resolución del problema o área de oportunidad</p>
                 </div>
             </div>
-            <div class="aori-card">
+            <div class="aori-card fade fade-right">
                 <div class="background-wrapper">
                     <img class="background" src="#/img/img-i.png" alt="I de AORI fondo">
                 </div>
@@ -77,15 +77,15 @@
     </section>
     <section class="method-exp">
         <div class="main-wrapper">
-            <p>
+            <p class="fade fade-bottom">
             Nuestra metodología tiene sus cimientos basados en el marco ideológico del<br>
             <span>“Value Proposition Design”</span> y <span>“Canvas Business Model”</span><br>
-            de Alexander Osterwalder. 
+            de Alexander Osterwalder.
             </p>
         </div>
     </section>
     <section id="servicios" class="services">
-        <h2 class="title underline ul-center">servicios</h2>
+        <h2 class="title underline ul-center fade fade-top">servicios</h2>
         <?php include("#/inc/services_grid.php"); ?>
     </section>
     <?php include("#/inc/portafolio-slider.php"); ?>
@@ -96,18 +96,18 @@
         <img src="#/img/preview-2.gif" alt="">
     </section>
     <section id="team" class="team">
-        <h2 class="title underline ul-center">Nuestro equipo</h2>
-        <p class="main-wrapper"><span>"Una empresa es tan buena como el equipo que la conforma." – Juan Riestra.</span><br><br>En AORI, nuestro equipo está compuesto por mercadologos, publirrelacionistas, diseñadores, ilustradores, animadores gráficos, programadores y expertos en impresión. Lo que hace que nuestros trabajos tengan un gran diseño que sea comercialmente efectivo.</p>
+        <h2 class="title underline ul-center fade fade-top">Nuestro equipo</h2>
+        <p class="main-wrapper fade fade-right"><span>"Una empresa es tan buena como el equipo que la conforma." – Juan Riestra.</span><br><br>En AORI, nuestro equipo está compuesto por mercadologos, publirrelacionistas, diseñadores, ilustradores, animadores gráficos, programadores y expertos en impresión. Lo que hace que nuestros trabajos tengan un gran diseño que sea comercialmente efectivo.</p>
         <div class="main-wrapper team-cards">
-            <div class="team-card">
+            <div class="team-card fade fade-left">
                 <img src="#/img/team-programacion.png" alt="">
                 <div class="card-title">Equipo de programación</div>
             </div>
-            <div class="team-card">
+            <div class="team-card fade fade-bottom">
                 <img src="#/img/team-diseno.png" alt="">
                 <div class="card-title">Equipo de diseño</div>
             </div>
-            <div class="team-card">
+            <div class="team-card fade fade-right">
                 <img src="#/img/team-comunicacion.png" alt="">
                 <div class="card-title">Equipo de comunicación</div>
             </div>
@@ -115,10 +115,10 @@
     </section>
     <section id="contacto" class="contact-ribbon">
         <div class="main-wrapper">
-            <img src="#/img/te-gusta.png" alt="">
+            <img class="fade fade-left" src="#/img/te-gusta.png" alt="">
             <div>
-                <p>Este podría ser tu sitio web.</p>
-                <a onclick="$('#formModal').addClass('modal-show')">CONTÁCTANOS</a>
+                <p class="fade fade-right">Este podría ser tu sitio web.</p>
+                <a class="fade fade-right" onclick="$('#formModal').addClass('modal-show')">CONTÁCTANOS</a>
             </div>
         </div>
     </section>

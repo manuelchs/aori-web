@@ -36,7 +36,7 @@
             <div class="project-stage">
                 <h2 class="title">desarrollo de marca</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/hyw-logo.png" alt="Logo hyw">
+                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-1.png" alt="Logo hyw">
                 </div>
                 <div class="stage-desc">
                     <p>Conceptualización y desarrollo de logo.</p>
@@ -76,7 +76,7 @@
             <div class="project-stage">
                 <h2 class="title">marketing digital</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/hyw/hyw-5.png" alt="Hyw ejemplo 5">
+                    <?php include('../inc/instapost.html') ?>
                 </div>
                 <div class="stage-desc">
                     <p>Creación de contenido para Facebook e Instagram</p>

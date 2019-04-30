@@ -1,4 +1,5 @@
 $(function() {
+    $('.fade').addClass('fade-end');
     var clicked = false;
     /** SCROLL **/
     $('.link-navbar').click(function(event){
@@ -62,6 +63,23 @@ $(function() {
             }
         } else {
             nav.classList.remove('hide-nav');
+        }
+
+
+
+        // *** ANIMACIONES EN SCROLL *** //
+        const elements = document.querySelectorAll('.fade');
+        var offset = screen.width < 900 ? -100 : 120;
+        for (let index = 0; index < elements.length; index++) {
+            const element = elements[index];
+            const elementPosition = element.getBoundingClientRect();
+            const elementCenter = elementPosition.height / 2;
+            console.log(offset);
+            if ( elementPosition.top < window.innerHeight - elementPosition.height + elementCenter && elementPosition.top > (elementPosition.height - -100) * -1 ) {
+                element.classList.add('fade-end');
+            } else {
+                element.classList.remove('fade-end');
+            }
         }
     });
 

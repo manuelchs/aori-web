@@ -147,7 +147,7 @@
         position: relative;
 
         @media #{$break2} {
-            height: 60vw;
+            height: 45vw;
             // -webkit-clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 50% 100%);
             // clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 50% 100%);
             clip-path: unset;
@@ -226,6 +226,7 @@
 
 .about {
     padding: 10rem 0 8rem;
+    overflow: hidden;
     @media #{$break2} {
         padding: 0;
     }
@@ -243,9 +244,9 @@
             margin-right: 4rem;
             @media #{$break2} {
                 margin-right: 0;
-                margin-top: 5rem;
-                margin-bottom: 5rem;
-                width: 80%;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                width: 70%;
                 height: auto;
             }
         }
@@ -269,7 +270,7 @@
 }
 
 .preview-video {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
     position: relative;
     height: 200px;
     background-color: $gray5;
@@ -295,7 +296,9 @@
 }
 
 .method {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
+    padding: 4rem 0;
+    overflow: hidden;
     h2 {
         margin: 0 auto 4rem;
     }
@@ -309,7 +312,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 6rem;
         @media #{$break2} {
             flex-direction: column;
         }
@@ -421,7 +423,8 @@
     // background-color: #f1f1f1;
     background-color: black;
     padding: 4rem 0;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
+    overflow: hidden;
     p {
         color: $gray2;
         color: white;
@@ -438,10 +441,12 @@
 /** section grid **/
 
 .services {
-    margin-bottom: 8rem;
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+    overflow: hidden;
     @media #{$break2} {
-        overflow: hidden;
-        margin-bottom: 3rem;
+        margin-bottom: 0rem;
+        padding-bottom: 0;
     }
 
     h2{
@@ -491,8 +496,9 @@
 }
 
 .portfolio {
-    margin-bottom: 8rem;
-
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+    overflow: hidden;
     @media #{$break2} {
         margin-bottom: 3rem;
     }
@@ -648,9 +654,12 @@
                     @media #{$break2} {
                         bottom: unset;
                         top: calc(100% + 1.5rem);
-                        width: 90vw;
+                        width: fit-content;
+                        max-width: 90vw;
+                        padding: 0.5rem 1rem;
                         left: 50%;
                         transform: translate(-50%);
+                        white-space: nowrap;
                     }
                     &:before {
                         content: '';
@@ -798,7 +807,9 @@
 }
 
 .team {
-    margin-bottom: 8rem;
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+    overflow: hidden;
     h2 {
         margin: 0 auto;
         margin-bottom: 4rem;
@@ -865,6 +876,7 @@
 .contact-ribbon {
     background-color: $mainColor;
     padding: 2rem 0;
+    overflow: hidden;
     
     .main-wrapper {
         display: flex;
@@ -1108,13 +1120,49 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @media #{$break2} {
+                flex-wrap: wrap;
+            } 
+        }
+
+        .text-wrapper, .ssl-wrapper {
+            width: 35%;
+            display: flex;
+        }
+        .text-wrapper {
+            justify-content: flex-start;
+            align-items: center;
+            @media #{$break2} {
+                width: 100%;
+                justify-content: center;
+                margin-top: 1rem;
+                order: 3;
+            }
+        }
+        .ssl-wrapper {
+            justify-content: flex-end;
+            align-items: center;
+            @media #{$break2} {
+                width: 50%;
+            }
+        }
+        .logo-wrapper {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media #{$break2} {
+                width: 50%;
+                justify-content: flex-start;
+            }
         }
         p {
             font-size: 0.8rem;
             color: $gray2;
+            white-space: nowrap;
         }
         img {
-            height: 38px;
+            height: 32px;
             width: auto;
         }
     }

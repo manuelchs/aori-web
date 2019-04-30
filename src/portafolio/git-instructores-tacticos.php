@@ -80,7 +80,7 @@
             <div class="project-stage">
                 <h2 class="title">video</h2>
                 <div class="stage-img">
-                    <img class="lightbox-item" src="#/img/portafolio/git/git-4.png" alt="Git ejemplo 4">
+                    <img class="lightbox-item video" youtube="gKSeOn6C8iY" src="#/img/portafolio/git/git-4.png" alt="Git ejemplo 4">
                 </div>
                 <div class="stage-desc">
                     <p>Produccion y edicion de video</p>

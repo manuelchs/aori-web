@@ -10,7 +10,7 @@
     <section class="desfase-navbar hero-portafolio dr">
         <div class="info-project">
             <div class="logo-icons">
-                <img class="project-logo" src="#/img/portafolio/dr-logo.png" alt="Logo Dr">
+                <img class="project-logo" src="#/img/portafolio/dr-logo-white.png" alt="Logo Dr">
                 <div class="project-icons">
                     <div class="icon-wrapper">
                         <img src="#/img/branding.png" alt="Dr branding">

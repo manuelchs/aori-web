@@ -51,7 +51,7 @@
                             <p class="brand-info">DR. juan manuel riestra</p>
                         </div>
                         <div class="slider-services-sec-item sm3">
-                            <img class="lightbox-item video" src="#/img/services/clips/clips-example-3.png" youtube="1GjvMPjAjxM" alt="Video explainer de Here You Win por AORI Brand Media Consulting">
+                            <img class="lightbox-item video" src="#/img/services/clips/clips-example-3.png" youtube="nozvUfgB0jc" alt="Video explainer de Here You Win por AORI Brand Media Consulting">
                             <p class="slider-desc">Video Explainer</p>
                             <p class="brand-info">here you win</p>
                         </div>

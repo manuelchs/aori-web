@@ -1,9 +1,9 @@
 <script src="#/js/slider.js"></script>
 <?php include("portafolio_files_name.php"); ?>
 <section id="portafolio" class="portfolio">
-    <h2 class="title underline ul-right">Portafolio</h2>
+    <h2 class="title underline ul-right fade fade-top">Portafolio</h2>
     <div class="main-wrapper">
-        <div class="slider-wrapper">
+        <div class="slider-wrapper fade">
             <div id="arrowLeft" class="slider-button left-button">
                 <img src="#/img/arrow-left.png" alt="">
             </div>
@@ -127,7 +127,7 @@
 
             </div>
         </div>
-        <div class="bar-wrapper">
+        <!-- <div class="bar-wrapper">
             <div class="bar"></div>
             <div class="bar active-bar"></div>
             <div class="bar"></div>
@@ -135,6 +135,6 @@
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-        </div>
+        </div> -->
     </div>
 </section>
