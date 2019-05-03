@@ -3,6 +3,11 @@
 <head>
     <?php include("#/inc/head.html") ?>
     <title>AORI - Consultoria de negocios y herramientas digitales</title>
+    <meta property="og:url" content="https://www.aori.mx/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AORI Brand Media Consulting" />
+    <meta property="og:description" content="Herramientas digitales para tu empresa" />
+    <meta property="og:image" content="https://www.aori.mx/aori-miniatura.png" />
 </head>
 <body>
     <?php include("#/inc/services_files_name.php") ?>
